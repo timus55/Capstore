@@ -1,0 +1,11 @@
+
+# For customer_details
+
+insert into customers(username,name,phone_no,alt_phone_no,alt_email,gender,w_bal) values('timus455','Sumit','9421319755','8668575559','timus455@gmail.com','Male',1000);
+
+# For Addresses
+insert into addresses (address_id,address_line_one,address_line_two,address_district,address_state,address_landmark,c_username,m_username) values (1,'A/P-Shinde','','Nandurbar','Maharashtra','','timus455','');
+
+# For trasactions 
+
+insert into transactions values(100,to_date('16-Apr-2020 09:54','dd-Mon-yyyy hh24:mi'),'UPI',500,'Success','');
